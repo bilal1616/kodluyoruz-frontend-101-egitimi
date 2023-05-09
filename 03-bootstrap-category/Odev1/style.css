@@ -3,13 +3,12 @@
   height: 75px;
 }
 
-input[type="text"] {
-  padding: 6px;
-  margin-top: 20px;
-  font-size: 17px;
-  border: none;
-  width: 175px;
-  height: 50px;
+.navbar a {
+  color: #fff;
+}
+
+.navbar .dropdown-item {
+  color: black;
 }
 
 button {
