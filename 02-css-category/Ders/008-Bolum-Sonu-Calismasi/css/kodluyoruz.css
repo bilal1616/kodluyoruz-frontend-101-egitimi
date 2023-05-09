@@ -14,8 +14,10 @@ body {
 .btn {
   padding: 10px 20px;
   border-radius: 25px;
+  border: none;
   color: white;
   text-decoration: none;
+  cursor: pointer;
   box-shadow: 2px 2px 15px 7px rgba(0, 0, 0, 0.3);
 }
 
