@@ -6,4 +6,5 @@ let myClock = document.querySelector("#myClock")
 myClock.innerHTML = `${new Date().toLocaleString()}`
 
 setInterval(() => {
-    myClock.innerHTML = `${new Date().toLocaleString()}`})
+    myClock.innerHTML = `${new Date().toLocaleString()}`
+})
