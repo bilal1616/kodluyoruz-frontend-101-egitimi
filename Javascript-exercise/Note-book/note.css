@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#noteInput {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  width: 300px;
+}
+
+#noteList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.note-item {
+  margin-bottom: 5px;
+}
+
+.note-item .note-text {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.note-item .delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.note-item .delete-button:hover {
+  background-color: #d32f2f;
+}

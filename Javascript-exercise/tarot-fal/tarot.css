@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+#result {
+  text-align: center;
+  font-weight: bold;
+}
+
+#result > img {
+    width: 8.5%;
+    height: 8.5%;
+}
+
+#result > img:hover{
+    transform: scale(1.078);
+}
